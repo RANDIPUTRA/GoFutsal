@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FormasiFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Posisi Pemain Futsal"
+                android:textColor="@color/colorBlack"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/lapang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:text="Kiper :Merupakan posisi futsal pertama yang perlu diketahui. kiper bertugas menjaga gawang dari kebobolan"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                android:text="Flank :Merupakan motor serangan sebuah tim futsal. Flank berada di samping/di sayap. Selain bertugas sebagai motor serangan, flank juga bertugas
+menjadi penghubung antara anchor dan pivot"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_marginBottom="5dp"
+                android:text="Anchor :Merupakan pemain yang berada di depan kiper. Anchor mempunyai tugas ganda sebagai pemain bertahan dan juga pengatur serangan tin"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                android:text="Pivot :Bertugas sebagai pemain yang memimpin serangan, dan memulai pertahanan. tugas utama mereka adalah mengacaukan pertahanan lawan dan menjadi titik pusat serangan"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

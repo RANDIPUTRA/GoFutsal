@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "403864130577",
+    "firebase_url": "https://gofutsal-fdac2.firebaseio.com",
+    "project_id": "gofutsal-fdac2",
+    "storage_bucket": "gofutsal-fdac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403864130577:android:7405345a7cb68c02",
+        "android_client_info": {
+          "package_name": "com.apps.randi.gofutsal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403864130577-0i26gabfl04r62e6vfla1g9or3p6i8hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.randi.gofutsal",
+            "certificate_hash": "9be407acd9f223b95d91bef5fa64d1d400ca0008"
+          }
+        },
+        {
+          "client_id": "403864130577-uv8q2tk72as6hdini80i0hf5f98cldev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaWmbUMF7nTyZ4P3qpAgY_WR1xxSHcaaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403864130577-uv8q2tk72as6hdini80i0hf5f98cldev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
